@@ -1,1 +1,96 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Calico Cats</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #e67e22;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-bottom: 30px;
+        }
+        .cat-image {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            object-fit: cover;
+        }
+        /* Responsive design adjustments */
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            .cat-image {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Calico Cat Page</h1>
+
+        <div class="image-gallery">
+            <img src="https://images.unsplash.com/photo-1513245543132-31f507417b26?auto=format&fit=crop&q=80&w=400&h=300" alt="Beautiful Calico Cat looking up" class="cat-image">
+            <img src="https://images.unsplash.com/photo-1548247416-ec66f4900b2e?auto=format&fit=crop&q=80&w=400&h=300" alt="Fluffy Calico Cat resting" class="cat-image">
+        </div>
+
+        <h2>What is a Calico Cat?</h2>
+        <p>A calico cat is a domestic cat of any breed with a tri-color coat. The calico cat is most commonly thought of as being typically 25% to 75% white with large orange and black patches (or sometimes cream and grey patches in "muted" calicoes).</p>
+
+        <h2>Fun Facts</h2>
+        <ul>
+            <li><strong>Genetics:</strong> Because genetic determination of coat colors in calico cats is linked to the X chromosome, calicoes are nearly always female.</li>
+            <li><strong>State Cat:</strong> The calico cat became the official state cat of Maryland in 2001.</li>
+            <li><strong>Good Luck:</strong> In many cultures, calico cats are believed to bring good luck. The famous Japanese Maneki-neko (beckoning cat) is almost always a calico.</li>
+            <li><strong>Not a Breed:</strong> "Calico" refers only to a color pattern on the fur, from colorful patches of white, orange, and black, not to a cat breed or any reference to any other traits.</li>
+        </ul>
+
+        <h2>Calico vs. Tortoiseshell</h2>
+        <p>While often confused, calico and tortoiseshell are different. Tortoiseshell cats have a mottled coat of two colors (usually black and orange) with very little to no white, whereas calico cats have significant white patches along with the black and orange.</p>
+    </div>
+</body>
+</html>
